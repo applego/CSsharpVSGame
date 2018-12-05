@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webapplication_game:
+    image: ${DOCKER_REGISTRY}webapplicationgame
+    build:
+      context: .\WebApplication_Game
+      dockerfile: Dockerfile
